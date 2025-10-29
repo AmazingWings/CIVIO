@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1234567890ABCDEF001 /* ServiceForSocietyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF000 /* ServiceForSocietyApp.swift */; };
+		A1234567890ABCDEF003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF002 /* ContentView.swift */; };
+		A1234567890ABCDEF005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF004 /* Assets.xcassets */; };
+		A1234567890ABCDEF008 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF007 /* Preview Assets.xcassets */; };
+		A1234567890ABCDEF010 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF009 /* MapView.swift */; };
+		A1234567890ABCDEF012 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF011 /* FavoritesView.swift */; };
+		A1234567890ABCDEF014 /* DonationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF013 /* DonationCenter.swift */; };
+		A1234567890ABCDEF016 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF015 /* LocationManager.swift */; };
+		A1234567890ABCDEF018 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF017 /* ColorTheme.swift */; };
+		A1234567890ABCDEF022 /* VolunteeringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF021 /* VolunteeringView.swift */; };
+		A1234567890ABCDEF025 /* VolunteeringOpportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890ABCDEF024 /* VolunteeringOpportunity.swift */; };
+		CF4D9A542E7661B7000F78ED /* DonationCenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D9A532E7661B5000F78ED /* DonationCenterService.swift */; };
+		CF4D9A562E76687B000F78ED /*  SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D9A552E76687A000F78ED /*  SearchService.swift */; };
+		CF4D9A582E766C95000F78ED /* LocationSearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D9A572E766C8F000F78ED /* LocationSearchSheet.swift */; };
+		CFB628442EA5918E00FBD649 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB628432EA5918D00FBD649 /* NotificationService.swift */; };
+		CFB6284D2EA5926D00FBD649 /* VolunteeringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6284C2EA5926A00FBD649 /* VolunteeringService.swift */; };
+		CFBD26BC2E6BC06D006AB7F2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD26BB2E6BC066006AB7F2 /* Account.swift */; };
+		CFF037292EA6E78000591A06 /* AddOpportunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF037282EA6E77D00591A06 /* AddOpportunityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1234567890ABCDEF000 /* ServiceForSocietyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceForSocietyApp.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1234567890ABCDEF006 /* ServiceForSociety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceForSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1234567890ABCDEF007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1234567890ABCDEF009 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF011 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF013 /* DonationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationCenter.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF015 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF017 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF021 /* VolunteeringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteeringView.swift; sourceTree = "<group>"; };
+		A1234567890ABCDEF024 /* VolunteeringOpportunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteeringOpportunity.swift; sourceTree = "<group>"; };
+		CF4D9A532E7661B5000F78ED /* DonationCenterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationCenterService.swift; sourceTree = "<group>"; };
+		CF4D9A552E76687A000F78ED /*  SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SearchService.swift"; sourceTree = "<group>"; };
+		CF4D9A572E766C8F000F78ED /* LocationSearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchSheet.swift; sourceTree = "<group>"; };
+		CFB628432EA5918D00FBD649 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CFB6284C2EA5926A00FBD649 /* VolunteeringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteeringService.swift; sourceTree = "<group>"; };
+		CFBD26BB2E6BC066006AB7F2 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		CFCC7ECF2E93631600511790 /* AddressSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchManager.swift; sourceTree = "<group>"; };
+		CFF037282EA6E77D00591A06 /* AddOpportunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOpportunityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1234567890ABCDEF050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1234567890ABCDEF027 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF007 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF051 = {
+			isa = PBXGroup;
+			children = (
+				CFCC7ECF2E93631600511790 /* AddressSearchManager.swift */,
+				A1234567890ABCDEF052 /* ServiceForSociety */,
+				A1234567890ABCDEF053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF052 /* ServiceForSociety */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF000 /* ServiceForSocietyApp.swift */,
+				A1234567890ABCDEF002 /* ContentView.swift */,
+				A1234567890ABCDEF060 /* Views */,
+				A1234567890ABCDEF061 /* Models */,
+				A1234567890ABCDEF062 /* Services */,
+				A1234567890ABCDEF063 /* Utilities */,
+				A1234567890ABCDEF004 /* Assets.xcassets */,
+				A1234567890ABCDEF027 /* Preview Content */,
+			);
+			path = ServiceForSociety;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF006 /* ServiceForSociety.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF060 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFF037282EA6E77D00591A06 /* AddOpportunityView.swift */,
+				CF4D9A572E766C8F000F78ED /* LocationSearchSheet.swift */,
+				A1234567890ABCDEF009 /* MapView.swift */,
+				A1234567890ABCDEF011 /* FavoritesView.swift */,
+				A1234567890ABCDEF021 /* VolunteeringView.swift */,
+				CFBD26BB2E6BC066006AB7F2 /* Account.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF061 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF013 /* DonationCenter.swift */,
+				A1234567890ABCDEF024 /* VolunteeringOpportunity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF062 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CFB6284C2EA5926A00FBD649 /* VolunteeringService.swift */,
+				CFB628432EA5918D00FBD649 /* NotificationService.swift */,
+				CF4D9A552E76687A000F78ED /*  SearchService.swift */,
+				CF4D9A532E7661B5000F78ED /* DonationCenterService.swift */,
+				A1234567890ABCDEF015 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1234567890ABCDEF063 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A1234567890ABCDEF017 /* ColorTheme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1234567890ABCDEF028 /* ServiceForSociety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1234567890ABCDEF029 /* Build configuration list for PBXNativeTarget "ServiceForSociety" */;
+			buildPhases = (
+				A1234567890ABCDEF030 /* Sources */,
+				A1234567890ABCDEF050 /* Frameworks */,
+				A1234567890ABCDEF031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServiceForSociety;
+			productName = ServiceForSociety;
+			productReference = A1234567890ABCDEF006 /* ServiceForSociety.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1234567890ABCDEF032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A1234567890ABCDEF028 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1234567890ABCDEF033 /* Build configuration list for PBXProject "ServiceForSociety" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1234567890ABCDEF051;
+			productRefGroup = A1234567890ABCDEF053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1234567890ABCDEF028 /* ServiceForSociety */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1234567890ABCDEF031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1234567890ABCDEF008 /* Preview Assets.xcassets in Resources */,
+				A1234567890ABCDEF005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1234567890ABCDEF030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1234567890ABCDEF003 /* ContentView.swift in Sources */,
+				A1234567890ABCDEF010 /* MapView.swift in Sources */,
+				A1234567890ABCDEF012 /* FavoritesView.swift in Sources */,
+				A1234567890ABCDEF014 /* DonationCenter.swift in Sources */,
+				CFF037292EA6E78000591A06 /* AddOpportunityView.swift in Sources */,
+				CFB6284D2EA5926D00FBD649 /* VolunteeringService.swift in Sources */,
+				A1234567890ABCDEF016 /* LocationManager.swift in Sources */,
+				CFBD26BC2E6BC06D006AB7F2 /* Account.swift in Sources */,
+				CF4D9A562E76687B000F78ED /*  SearchService.swift in Sources */,
+				A1234567890ABCDEF018 /* ColorTheme.swift in Sources */,
+				CF4D9A542E7661B7000F78ED /* DonationCenterService.swift in Sources */,
+				A1234567890ABCDEF022 /* VolunteeringView.swift in Sources */,
+				A1234567890ABCDEF025 /* VolunteeringOpportunity.swift in Sources */,
+				CF4D9A582E766C95000F78ED /* LocationSearchSheet.swift in Sources */,
+				CFB628442EA5918E00FBD649 /* NotificationService.swift in Sources */,
+				A1234567890ABCDEF001 /* ServiceForSocietyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1234567890ABCDEF034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1234567890ABCDEF035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1234567890ABCDEF036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ServiceForSociety/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location access to show nearby donation centers and recycling facilities.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serviceforsociety.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1234567890ABCDEF037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ServiceForSociety/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location access to show nearby donation centers and recycling facilities.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serviceforsociety.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1234567890ABCDEF029 /* Build configuration list for PBXNativeTarget "ServiceForSociety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1234567890ABCDEF036 /* Debug */,
+				A1234567890ABCDEF037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1234567890ABCDEF033 /* Build configuration list for PBXProject "ServiceForSociety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1234567890ABCDEF034 /* Debug */,
+				A1234567890ABCDEF035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1234567890ABCDEF032 /* Project object */;
+}
