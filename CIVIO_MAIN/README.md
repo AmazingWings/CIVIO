@@ -1,61 +1,57 @@
-CIVIO
-Food Waste & Donation Connector iOS App
+# CIVIO
+## Food Waste & Donation Connector iOS App
 
-Civio connects people with local food banks, shelters, and recycling centers — and lets anyone create or join volunteering opportunities to support their communities.
+Civio connects people with local food banks, shelters, and recycling centers — and lets anyone create or join volunteering opportunities to support their communities.  
 
-🌟 Features
+---
 
-Map View: Interactive map with custom markers
+## 🌟 Features
 
-Location Services: Find nearby centers
+- **Map View:** Interactive map with custom markers  
+- **Location Services:** Find nearby centers  
+- **Radius & Type Filtering:** Adjust search radius (2–100 miles) and filter by center type  
+- **Favorites:** Save and manage favorite centers  
+- **Volunteer Opportunities:** Browse and create local events  
+- **Details:** Hours, contact info, accepted items  
 
-Radius & Type Filtering: Adjust search radius (2–100 miles) and filter by center type
+---
 
-Favorites: Save and manage favorite centers
+## 🎯 Users
 
-Volunteer Opportunities: Browse and create local events
+- **Donors:** Restaurants, stores, households  
+- **Recipients:** People seeking assistance  
+- **Community Members:** Anyone wanting to help or organize events  
 
-Details: Hours, contact info, accepted items
+---
 
-🎯 Users
+## 🏗️ Tech
 
-Donors: Restaurants, stores, households
+- **SwiftUI** for UI  
+- **MapKit & Core Location** for maps and GPS  
+- **Combine** for reactive data flow  
+- **MVVM architecture** for clean, maintainable code  
 
-Recipients: People seeking assistance
+---
+**Center Types:** Food Banks, Shelters, Recycling, Compost  
+---
+## 📍 Location Features
 
-Community Members: Anyone wanting to help or organize events
+- Auto and manual location search  
+- Smart sorting & filtering  
+- Nationwide coverage  
 
-🏗️ Tech
+---
 
-SwiftUI for UI
+## 🔧 Configuration
 
-MapKit & Core Location for maps and GPS
+- **Bundle ID:** `com.serviceforsociety.app`  
+- **iOS 15+**  
+- **Location Permission:** “When in Use”  
 
-Combine for reactive data flow
+---
 
-MVVM architecture for clean, maintainable code
+**Built for the community — browse, contribute, and create opportunities.**
 
-📊 Sample Data
 
-Cities Covered:
-San Francisco, Los Angeles, NYC, Brooklyn, Houston, Chicago, Phoenix, Miami, Seattle, Boston, Atlanta, Charlotte, Raleigh, Greensboro, Durham, Winston-Salem
+##This is an open-source app! If you make improvements, tag me — I’d be ecstatic to collaborate with the community
 
-Center Types: Food Banks, Shelters, Recycling, Compost
-
-⚠️ Goal: Expand nationwide
-
-📍 Location Features
-
-Auto and manual location search
-
-Smart sorting & filtering
-
-Nationwide coverage
-
-🔧 Config
-
-Bundle ID: com.serviceforsociety.app
-
-iOS 15+, location permission “When in Use”
-
-Built for the community — browse, contribute, and create opportunities.
