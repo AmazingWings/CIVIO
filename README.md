@@ -1,5 +1,5 @@
 # CIVIO
-## Food Waste & Donation Connector iOS App
+## Volunteering/Donating App
 
 Civio connects people with local food banks, shelters, and recycling centers — and lets anyone create or join volunteering opportunities to support their communities.  
 
